@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<title>Add/Edit Person</title>
+<form method=post action="/people">
+    {{ form.personID() }}
+    {{ form.csrf_token }}
+
+    {{ form.lastname.label }}
+    {{ form.lastname }}
+
+    {{ form.firstname.label }}
+    {{ form.firstname }}
+    <input type=submit value="Add/Edit">
+</form>
