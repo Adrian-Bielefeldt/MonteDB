@@ -1,4 +1,4 @@
-from flask import render_template, request, flash
+from flask import render_template, request
 
 from .db import Person, PersonType, db
 from .forms import PersonForm

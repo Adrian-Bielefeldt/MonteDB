@@ -1,4 +1,4 @@
-from wtforms import Form, HiddenField, SelectField, StringField, validators
+from wtforms import Form, HiddenField, StringField
 
 from .db import PersonType
 
